@@ -1,4 +1,5 @@
 import Hero from './components/main/Hero'
+import Navbar from './components/main/Navbar'
 import './styles.css'
 
 
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <div className='h-full w-full  '>
-       <div className='flex flex-col h-[850px] gap-20'>
+      < Navbar />
+       <div className='flex flex-col  gap-20'>
         <Hero />
        </div>
     </div>
