@@ -1,3 +1,31 @@
+
+
+export const Socials = [
+  {
+  name: "LinkedIn",
+  src: '/linkedin.png',
+  link: "https://www.linkedin.com/in/tajuddinshaik786/"
+  },
+  {
+  name: "Github",
+  src: '/github.png',
+  link: "https://github.com/Taj-2005"
+  },
+  {
+    name: "Discord",
+    src: '/discord.svg',
+    link: "https://discord.com/users/taj.786"
+  },
+  {
+    name: "Instagram",
+    src: '/instagram.svg',
+    link: "https://www.instagram.com/tajuddinshaik_6/"
+  },
+  // {
+  //   name: "Facebook",
+  //   src: "/facebook.svg",
+  // },
+];
 export const Skill_data = [
     {
     skill_name: "Figma",
@@ -98,24 +126,6 @@ export const Skill_data = [
   
   ];
   
-  export const Socials = [
-    {
-    name: "LinkedIn",
-    src: "/linkedin.png",
-    },
-    {
-      name: "Discord",
-      src: "/discord.svg",
-    },
-    {
-      name: "Instagram",
-      src: "/instagram.svg",
-    },
-    // {
-    //   name: "Facebook",
-    //   src: "/facebook.svg",
-    // },
-  ];
   
 
   export const Programming_Skills = [

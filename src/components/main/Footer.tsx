@@ -7,6 +7,8 @@ import {
     RxLinkedinLogo,
 } from 'react-icons/rx'
 
+import { AiOutlineMail } from 'react-icons/ai';
+
 const Footer = () => {
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]">
@@ -60,6 +62,7 @@ const Footer = () => {
                     </p>
 
                     <a href='mailto:tajuddinshaik786r@gmail.com' target='_black' className='flex flex-row items-center my-[15px] cursor-pointer z-20'>
+                        <AiOutlineMail />
                         <p className='text-[15px] ml-[6px]'>tajuddinshaik786r@gmail.com</p>
                     </a>
 
