@@ -1,4 +1,5 @@
 import Encryption from './components/main/Encryption'
+import Footer from './components/main/Footer'
 import Hero from './components/main/Hero'
 import Navbar from './components/main/Navbar'
 import Projects from './components/main/Projects'
@@ -16,6 +17,7 @@ function App() {
         <Skills />
         <Encryption />
         <Projects />
+        <Footer /> 
        </div>
     </div>
   )
