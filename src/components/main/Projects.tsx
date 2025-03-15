@@ -28,7 +28,7 @@ const Projects = () => {
             <ProjectCard 
             src={space}
             title="Space Website"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet obcaecati reprehenderit alias amet quisquam dolore fuga quibusdam libero porro perferendis non inventore enim quo, voluptates repudiandae vero nulla, officia aut?"
+            description="Lorem ipsum dolor sit consectetur adipisicing elit. Eveniet obcaecati reprehenderit alias amet quisquam dolore fuga quibusdam libero porro perferendis non inventore enim quo, voluptates repudiandae vero nulla, officia aut?"
             />
         </div>
     </section>
