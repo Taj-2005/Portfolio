@@ -1,4 +1,3 @@
-import React from 'react'
 import blackHole from '../../../public/blackhole.webm'
 import HeroContent from '../sub/Herocontent'
 
