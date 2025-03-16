@@ -1,25 +1,21 @@
-'use client'
-
-import courseData from "../../data/music_courses.json";
+"use client";
 import { CardBody, CardContainer, CardItem } from "../sub/3dCard";
+import courseData from "../../data/music_courses.json";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import {BackgroundBeams} from "../sub/BackgroundBeams";
+import BackgroundBeams from "../../components/sub/Beams.tsx"
 
 
-const Projects = () => {
+function page() {
   return (
-    <section id='projects' className="min-h-screen py-12 pt-36 z-20">
-        <h1 className="text-[40px] font-semibold text-transparent  text-center bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-            My Projects
-        </h1>
+    <div className="min-h-screen bg-black py-12 pt-36">
       <div>
         <BackgroundBeams />
       </div>
       <div className="flex flex-wrap justify-center">
         {courseData.courses.map((course) => (
           <CardContainer className="inter-var m-4" key={course.id}>
-            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-[#0c0224] dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -68,8 +64,8 @@ const Projects = () => {
           </CardContainer>
         ))}
       </div>
-    </section>
-  )
+    </div>
+  );
 }
 
-export default Projects
+export default page;

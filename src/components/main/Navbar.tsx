@@ -1,6 +1,7 @@
 import NavbarLogo from '../../../public/NavLogo.png'
 import { Socials } from '../../../constants/index'
-
+import { useNavigate } from "react-router-dom"
+ 
 const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 ">
@@ -23,7 +24,7 @@ const Navbar = () => {
 
         <div className='flex flex-row gap-5'>
           {Socials.map((social) => (
-            <a href={social.link} target='blank' className='z-20 cursor-pointer'>
+            <a href={social.link} target='blank' className='z-20 cursor-po'>
               <img
               src={social.src}
               alt={social.name}
