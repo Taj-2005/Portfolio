@@ -26,7 +26,7 @@ const Skills = () => {
             {Frontend_skill.map((image, index) => (
                  <SkillDataProvider 
                  key={index}
-                 src={image.Image}
+                 src={image.image}
                  width={image.width}
                  height={image.height}
                  index={index}
@@ -38,7 +38,7 @@ const Skills = () => {
             {Programming_Skills.map((image, index) => (
                  <SkillDataProvider 
                  key={index}
-                 src={image.Image}
+                 src={image.image}
                  width={image.width}
                  height={image.height}
                  index={index}
@@ -50,7 +50,7 @@ const Skills = () => {
             {Backend_skill.map((image, index) => (
                  <SkillDataProvider 
                  key={index}
-                 src={image.Image}
+                 src={image.image}
                  width={image.width}
                  height={image.height}
                  index={index}
@@ -62,7 +62,7 @@ const Skills = () => {
             {Full_stack.map((image, index) => (
                  <SkillDataProvider 
                  key={index}
-                 src={image.Image}
+                 src={image.image}
                  width={image.width}
                  height={image.height}
                  index={index}
