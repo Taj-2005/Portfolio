@@ -87,23 +87,6 @@ export const Skill_data = [
   ];
   
   
-
-  export const Programming_Skills = [
-    {
-        skill_name: "Python",
-        image: "/python-min.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "C++",
-        image: "/cpp-min.png",
-        width: 80,
-        height: 80,
-    },
-  ]
-  
-  
   export const Frontend_skill = [
     {
       skill_name: "Html 5",
@@ -148,6 +131,23 @@ export const Skill_data = [
       height: 80,
     },
   ];
+
+    
+
+  export const Programming_Skills = [
+    {
+        skill_name: "Python",
+        image: "/python-min.png",
+        width: 80,
+        height: 80,
+    },
+    {
+        skill_name: "C++",
+        image: "/cpp-min.png",
+        width: 80,
+        height: 80,
+    },
+  ]
   
   export const Backend_skill = [
     {
