@@ -7,6 +7,7 @@ import React, {
   useContext,
   useRef,
   useEffect,
+  type JSX,
 } from "react";
 
 const MouseEnterContext = createContext<
@@ -106,7 +107,7 @@ export const CardItem = ({
   rotateZ = 0,
   ...rest
 }: {
-  as?: React.ElementType;
+  as?: keyof JSX.IntrinsicElements | React.ElementType;
   children?: React.ReactNode;
   className?: string;
   translateX?: number | string;
@@ -128,16 +129,14 @@ export const CardItem = ({
     }
   }, [isMouseEntered]);
 
-  const Component = Tag as keyof JSX.IntrinsicElements;
-
   return (
-    <Component
+    <div
       ref={ref as any}
       className={cn("w-fit transition duration-200 ease-linear", className)}
       {...rest}
     >
       {children}
-    </Component>
+    </div>
   );
 };
 
