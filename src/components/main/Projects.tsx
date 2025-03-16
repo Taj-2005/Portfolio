@@ -69,20 +69,6 @@ const Projects = () => {
             title="Tic Tac Toe Game"
             description='Developed an interactive Tic Tac Toe game that allows two players to compete in a visually engaging web-based environment. The game features a responsive UI, real-time game logic, and dynamic win detection for a seamless and fun user experience.'
             />
-
-
-
-            {/* <ProjectCard 
-            src={nextWeb}
-            title="Next Website"
-            description='Designed a personal portfolio website to showcase my web development skills and projects. Built with HTML, CSS, and JavaScript, the portfolio features a clean, structured layout and a responsive design, ensuring an optimal user experience across devices. Key highlights include an "About Me" section, project showcases, and an interactive contact form.'
-            />
-
-            <ProjectCard 
-            src={cardImg}
-            title="Card Image"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet obcaecati reprehenderit alias amet quisquam dolore fuga quibusdam libero porro perferendis non inventore enim quo, voluptates repudiandae vero nulla, officia aut?"
-            /> */}
         </div>
     </section>
   )
