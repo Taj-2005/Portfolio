@@ -1,5 +1,5 @@
 import { Frontend_skill, Backend_skill, Full_stack, Programming_Skills} from "../../../constants"
-import cardsVideo from '../../../public/cards-video.webm'
+import cardsVideo from '/cards-video.webm'
 import SkillDataProvider from "../sub/SkillDataProvider"
 import SkillText from "../sub/SkillText"
 

@@ -1,4 +1,4 @@
-import blackHole from '../../../public/blackhole.webm'
+import blackHole from '/blackhole.webm'
 import HeroContent from '../sub/Herocontent'
 
 function Hero() {
