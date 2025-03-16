@@ -7,8 +7,8 @@ import encrypt from '../../../public/encryption.webm'
 
 const Encryption = () => {
   return (
-    <div className='flex flex-row relative justify-center min-h-screen  items-center w-full h-full'>
-        <div className='absolute w-auto h-auto top-0 z-[5]'>
+    <div className='flex flex-row relative justify-center min-h-screen items-center w-full h-full'>
+        <div className='absolute w-auto h-auto top-[15%] z-[5]'>
             <motion.div
             variants={slideInFromTop}
             className='text-[40px] font-medium text-center text-gray-200 ' 
@@ -46,7 +46,7 @@ const Encryption = () => {
 
         </div>
 
-            <div className='absolute z-[20] bottom-[10px] px-[5px]'>
+            <div className='absolute z-[20] bottom-[15%] px-[5px]'>
                 <div className='cursive text-[20px] font-medium text-center text-gray-300'>
                     Secure your data with end-to-end encryption
                 </div>

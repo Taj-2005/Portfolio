@@ -19,6 +19,7 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-intersection-observer": "^9.16.0",
+    "tailwind-merge": "^3.0.2",
     "tailwindcss": "^4.0.14",
     "three": "^0.174.0"
   },

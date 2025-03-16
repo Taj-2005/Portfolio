@@ -10,6 +10,7 @@ import mainIcons from "../../../public/mainIconsdark.svg";
     initial="hidden"
     animate="visible"
     className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]">
+        
         <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
             <motion.div
             variants={slideInFromTop}
@@ -44,8 +45,8 @@ import mainIcons from "../../../public/mainIconsdark.svg";
 
         <motion.div
             variants={slideInFromRight(0.8)}
-            className='w-full h-full flex justify-center items-center'>
-                <img src={mainIcons} alt="W   ork Icons" width={650} height={650} />; 
+            className='w-full h-full flex justify-center items-center bg-purple'>
+                <img src={mainIcons} alt="Work Icons" width={650} height={650} />; 
         </motion.div> 
 
     </motion.div>
