@@ -8,8 +8,6 @@ import capstone from '../../../public/capstonePro.png'
 import portfolio from '../../../public/portfolio.png'
 import restaurant from '../../../public/restaurant.jpeg'
 import XOX from '../../../public/tic_tac_toe.png'
-import nextWeb from '../../../public/NextWebsite.png'
-import cardImg from '../../../public/CardImage.png'
 
 
 const Projects = () => {
