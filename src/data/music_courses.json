@@ -10,7 +10,7 @@
         "isFeatured": true,
         "github": "https://github.com/Taj-2005/Portfolio",
         "livelink": "https://shaik-tajuddin-portfolio.vercel.app/",
-        "image": "../../public/SpaceWebsite.png"
+        "image": "/SpaceWebsite.png"
         },
         {
         "id": 2,
@@ -22,7 +22,7 @@
         "isFeatured": true,
         "github": "https://github.com/Taj-2005/Dine-Restaurant",
         "livelink": "https://dine-restaurant6.vercel.app/",
-        "image": "../../public/restaurant.jpeg"
+        "image": "/restaurant.jpeg"
         },
       {
         "id": 3,
@@ -34,7 +34,7 @@
         "isFeatured": true,
         "github": "https://github.com/Taj-2005/Algo-Journey-V2",
         "livelink": "https://algo-journey-3siz.vercel.app/",
-        "image": "../../public/AlgoJourneyV2.png"
+        "image": "/AlgoJourneyV2.png"
       },
       {
         "id": 4,
@@ -46,7 +46,7 @@
         "isFeatured": true,
         "github": "https://github.com/Taj-2005/algoJourney_v1",
         "livelink": "https://algojourney-dsa-nst.vercel.app/",
-        "image": "../../public/algov1.png"
+        "image": "/algov1.png"
       },
       {
         "id": 5,
@@ -58,7 +58,7 @@
         "isFeatured": false,
         "github": "https://github.com/Taj-2005/myportfolio",
         "livelink": "https://shaik-tajuddin.vercel.app/",
-        "image": "../../public/portfolio.png"
+        "image": "/portfolio.png"
       },
       {
         "id": 6,
@@ -70,7 +70,7 @@
         "github": "https://github.com/Taj-2005/Capstone-My-Portfolio",
         "livelink": "https://capstone-taj.vercel.app/",
         "isFeatured": false,
-        "image": "../../public/cap.png"
+        "image": "/cap.png"
       },
       {
         "id": 7,
@@ -82,7 +82,7 @@
         "github": "https://github.com/Taj-2005/TicTacToe",
         "livelink": "https://tic-tac-toe-taj.vercel.app/",
         "isFeatured": true,
-        "image": "../../public/xox.png"
+        "image": "/xox.png"
       }
     ]
   }
