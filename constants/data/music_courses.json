@@ -10,7 +10,7 @@
         "isFeatured": true,
         "github": "https://github.com/Taj-2005/Portfolio",
         "livelink": "https://shaik-tajuddin-portfolio.vercel.app/",
-        "image": "/SpaceWebsite.png"
+        "image": "/SpaceWebsit.jpeg"
         },
         {
         "id": 2,
@@ -34,7 +34,7 @@
         "isFeatured": true,
         "github": "https://github.com/Taj-2005/Algo-Journey-V2",
         "livelink": "https://algo-journey-3siz.vercel.app/",
-        "image": "/AlgoJourneyV2.png"
+        "image": "/AlgoJourneyV.jpeg"
       },
       {
         "id": 4,
@@ -58,7 +58,7 @@
         "isFeatured": false,
         "github": "https://github.com/Taj-2005/myportfolio",
         "livelink": "https://shaik-tajuddin.vercel.app/",
-        "image": "/portfolio.png"
+        "image": "/portfoli.jpeg"
       },
       {
         "id": 6,
@@ -70,7 +70,7 @@
         "github": "https://github.com/Taj-2005/Capstone-My-Portfolio",
         "livelink": "https://capstone-taj.vercel.app/",
         "isFeatured": false,
-        "image": "/cap.png"
+        "image": "/ca.jpeg"
       },
       {
         "id": 7,
@@ -82,7 +82,7 @@
         "github": "https://github.com/Taj-2005/TicTacToe",
         "livelink": "https://tic-tac-toe-taj.vercel.app/",
         "isFeatured": true,
-        "image": "/xox.png"
+        "image": "/xo.jpeg"
       }
     ]
   }
