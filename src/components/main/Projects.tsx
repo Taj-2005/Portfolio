@@ -1,6 +1,6 @@
 'use client'
 
-import courseData from "../../data/music_courses.json";
+import courseData from "../../../constants/data/music_courses.json";
 import { CardBody, CardContainer, CardItem } from "../sub/3dCard";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";

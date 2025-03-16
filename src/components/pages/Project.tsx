@@ -1,6 +1,6 @@
 "use client";
 import { CardBody, CardContainer, CardItem } from "../sub/3dCard";
-import courseData from "../../data/music_courses.json";
+import courseData from "../../../constants/data/music_courses.json";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import BackgroundBeams from "../../components/sub/Beams.tsx"
