@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "../../../utils/cn.ts";
+import { cn } from '../../../utils/cn.ts';
 import React, {
   createContext,
   useState,
@@ -34,15 +34,14 @@ export const CardContainer = ({
     containerRef.current.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
   };
 
-  const handleMouseEnter = () => {
+  const handleMouseEnter = (_: React.MouseEvent<HTMLDivElement>) => {
     setIsMouseEntered(true);
   };
 
-  const handleMouseLeave = () => {
-    if (containerRef.current) {
-      setIsMouseEntered(false);
-      containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
-    }
+  const handleMouseLeave = (_: React.MouseEvent<HTMLDivElement>) => {
+    if (!containerRef.current) return;
+    setIsMouseEntered(false);
+    containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
   };
 
   return (
@@ -80,13 +79,13 @@ export const CardBody = ({
   children,
   className,
 }: {
-  children?: React.ReactNode;
+  children: React.ReactNode;
   className?: string;
 }) => {
   return (
     <div
       className={cn(
-        "h-96 w-96 [transform-style:preserve-3d] [&>*]:[transform-style:preserve-3d]",
+        "h-96 w-96 [transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
         className
       )}
     >
@@ -107,7 +106,7 @@ export const CardItem = ({
   rotateZ = 0,
   ...rest
 }: {
-  as?: keyof JSX.IntrinsicElements | React.ElementType;
+  as?: React.ElementType;
   children?: React.ReactNode;
   className?: string;
   translateX?: number | string;
@@ -129,20 +128,23 @@ export const CardItem = ({
     }
   }, [isMouseEntered]);
 
+  const Component = Tag as keyof JSX.IntrinsicElements;
+
   return (
-    <Tag
+    <Component
       ref={ref as any}
       className={cn("w-fit transition duration-200 ease-linear", className)}
       {...rest}
     >
       {children}
-    </Tag>
+    </Component>
   );
 };
 
+// Create a hook to use the context
 export const useMouseEnter = () => {
   const context = useContext(MouseEnterContext);
-  if (!context) {
+  if (context === undefined) {
     throw new Error("useMouseEnter must be used within a MouseEnterProvider");
   }
   return context;
