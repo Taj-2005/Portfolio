@@ -22,7 +22,7 @@ export const CardContainer = ({
   className?: string;
   containerClassName?: string;
 }) => {
-  const containerRef = useRef<HTMLDivElement | null>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const [isMouseEntered, setIsMouseEntered] = useState(false);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -34,11 +34,11 @@ export const CardContainer = ({
     containerRef.current.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
   };
 
-  const handleMouseEnter = (_: React.MouseEvent<HTMLDivElement>) => {
+  const handleMouseEnter = () => {
     setIsMouseEntered(true);
   };
 
-  const handleMouseLeave = (_: React.MouseEvent<HTMLDivElement>) => {
+  const handleMouseLeave = () => {
     if (containerRef.current) {
       setIsMouseEntered(false);
       containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
@@ -80,7 +80,7 @@ export const CardBody = ({
   children,
   className,
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
 }) => {
   return (
@@ -107,7 +107,7 @@ export const CardItem = ({
   rotateZ = 0,
   ...rest
 }: {
-  as?: React.ElementType;
+  as?: keyof JSX.IntrinsicElements | React.ElementType;
   children?: React.ReactNode;
   className?: string;
   translateX?: number | string;
@@ -117,7 +117,7 @@ export const CardItem = ({
   rotateY?: number | string;
   rotateZ?: number | string;
 }) => {
-  const ref = useRef<HTMLDivElement | null>(null);
+  const ref = useRef<HTMLDivElement>(null);
   const [isMouseEntered] = useMouseEnter();
 
   useEffect(() => {
@@ -131,7 +131,7 @@ export const CardItem = ({
 
   return (
     <Tag
-      ref={ref}
+      ref={ref as any}
       className={cn("w-fit transition duration-200 ease-linear", className)}
       {...rest}
     >
@@ -140,7 +140,6 @@ export const CardItem = ({
   );
 };
 
-// Hook to use the MouseEnterContext safely
 export const useMouseEnter = () => {
   const context = useContext(MouseEnterContext);
   if (!context) {
