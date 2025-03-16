@@ -1,4 +1,4 @@
-import NavbarLogo from '/NavLogo.png'
+import NavbarLogo from '/NavLogo-min.png'
 import { Socials } from '../../../constants/index'
  
 const Navbar = () => {

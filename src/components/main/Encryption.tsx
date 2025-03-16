@@ -1,8 +1,8 @@
 'use client'
 import {motion} from 'framer-motion'
 import { slideInFromTop } from '../../../utils/motion'
-import lockTop from '/public/LockTop.png'
-import lockMain from '/public/LockMain.png'
+import lockTop from '/public/LockTop-min.png'
+import lockMain from '/public/LockMain-min.png'
 import encrypt from '/encryption.webm'
 
 const Encryption = () => {
