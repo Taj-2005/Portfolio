@@ -1,6 +1,5 @@
 import NavbarLogo from '../../../public/NavLogo.png'
 import { Socials } from '../../../constants/index'
-import { useNavigate } from "react-router-dom"
  
 const Navbar = () => {
   return (
