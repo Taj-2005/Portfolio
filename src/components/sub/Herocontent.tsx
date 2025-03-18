@@ -2,7 +2,7 @@
  import {motion} from 'framer-motion'
  import { slideInFromLeft, slideInFromRight, slideInFromTop } from '../../../utils/motion.ts'
 import { SparklesIcon } from '@heroicons/react/16/solid'
-import mainIcons from "../../../public/mainIconsdark.svg";
+import mainIcons from "/mainIconsdark.svg";
  
  function HeroContent() {
    return (
