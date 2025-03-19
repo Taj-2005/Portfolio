@@ -78,9 +78,3 @@ html {
   .slowspin {
     animation: slowspin 10s linear infinite;
   }
-  
-  img {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
