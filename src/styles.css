@@ -78,3 +78,9 @@ html {
   .slowspin {
     animation: slowspin 10s linear infinite;
   }
+
+  .josefin-sans{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }

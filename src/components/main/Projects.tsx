@@ -4,15 +4,26 @@ import courseData from "../../../constants/data/music_courses.json";
 import { CardBody, CardContainer, CardItem } from "../sub/3dCard";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import {motion} from 'framer-motion'
+import { slideInFromLeft, slideInFromRight } from '../../../utils/motion.ts'
 import {BackgroundBeams} from "../sub/BackgroundBeams";
 
 
 const Projects = () => {
   return (
     <section id='projects' className="min-h-screen py-12 pt-36 z-20">
-        <h1 className="text-[40px] font-semibold text-transparent  text-center bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+        <motion.div
+        variants={slideInFromLeft(0.5)}
+        className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
+        >
             My Projects
-        </h1>
+        </motion.div>
+        <motion.div
+        variants={slideInFromRight(0.5)}
+        className='josefin-sans text-[20px] text-gray-300 mb-10 mt-[10px] text-center'
+        >
+            Showcasing creativity, problem-solving, and innovation through code.
+        </motion.div>
       <div>
         <BackgroundBeams />
       </div>
