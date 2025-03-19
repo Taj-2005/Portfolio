@@ -43,7 +43,8 @@ const Projects = () => {
                 />
               </CardItem>
               <div className="flex justify-between items-center mt-20">
-                <a href={course.github}>
+              {course.github && (
+                <a href={course.github} target="_blank">
                   <CardItem
                     translateZ={20}
                     as="button"
@@ -53,6 +54,7 @@ const Projects = () => {
                     Github Repo →
                   </CardItem>
                 </a>
+              )}
                 <a href={course.livelink}  target="_blank">
                   <CardItem
                     translateZ={20}

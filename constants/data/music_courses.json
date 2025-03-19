@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "self",
         "isFeatured": true,
-        "github": "https://github.com/Taj-2005/Portfolio",
+        "github": null,
         "livelink": "https://shaik-tajuddin-portfolio.vercel.app/",
         "image": "/SpaceWebsit.jpeg"
         },
