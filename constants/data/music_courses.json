@@ -2,8 +2,8 @@
     "courses": [
     {
         "id": 1,
-        "title": "Space-Themed Portfolio (This)",
-        "slug": "Space-Themed Portfolio (This)",
+        "title": "Space-Themed Portfolio (This) ",
+        "slug": "Space-Themed Portfolio (This) ",
         "description": "A space-themed portfolio website with a sleek, mobile-responsive design and interactive animations. The site features a dynamic starry background and smooth transitions, providing an engaging user experience to showcase my projects and skills in an immersive way.",
         "price": 99.99,
         "instructor": "self",
