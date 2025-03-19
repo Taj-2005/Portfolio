@@ -32,7 +32,7 @@ import mainIcons from "/mainIconsdark.svg";
             <motion.p
             variants={slideInFromLeft(0.8)}
             className='text-lg text-gray-400 my-5 max-w-[600px]'>
-                I&apos;m <span className='font-xxl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>Shaik Tajuddin</span> a frontend developer with a passion for creating beautiful and functional user interfaces.
+                I&apos;m <span className='font-xxl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6d43ef] to-[#ff41b1]'>Shaik Tajuddin</span> a frontend developer with a passion for creating beautiful and functional user interfaces.
                 Checkout my projects, skills and let&apos;s work together! 
             </motion.p>
 

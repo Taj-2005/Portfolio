@@ -14,7 +14,7 @@ const Projects = () => {
     <section id='projects' className="min-h-screen py-12 pt-36 z-20">
         <motion.div
         variants={slideInFromLeft(0.5)}
-        className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
+        className='text-6xl font-bold text-white mt-[10px] text-center mb-[15px] '
         >
             My Projects
         </motion.div>
