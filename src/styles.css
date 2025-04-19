@@ -84,3 +84,86 @@ html {
     font-optical-sizing: auto;
     font-style: normal;
   }
+
+  .right-wrapper{
+    height: 100%;
+    width: 50%;
+    position: relative; 
+  }
+  .right-wrapper:hover,
+.right-wrapper:hover .outer-circle,
+.right-wrapper:hover .inner-circle,
+.right-wrapper:hover .skill-logo,
+.right-wrapper:hover .cabins-reverse {
+  animation-play-state: paused;
+}
+
+.right-wrapper:hover .cabins-reverse {
+  animation-play-state: paused !important;
+}
+@media only screen and (max-width: 500px)
+{
+      .right-wrapper{
+        margin: 0 5rem 5rem 0;
+      }
+      .outer-circle{
+        min-height: 350px;
+        min-width: 350px;
+      }
+      .text{
+        left: 12%;
+      }   
+      .button-area{
+          display: flex;
+          margin-block: 3rem;
+      }
+    
+}
+
+.outer-circle{
+  border: 2px solid rgba(128, 128, 128, 0.493);
+  border-radius: 50%;
+  margin-left: 50px;
+  position: relative;
+  min-width: 400px;
+  min-height: 400px;
+  flex-shrink: 0;
+  animation-name: wheel;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  will-change: transform;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466),inset -2px -2px 5px rgba(255, 255, 255, 0.479);
+}
+.skill-logo{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  animation: cabins 10s linear infinite;
+  will-change: transform;
+}
+.skill-logo:nth-of-type(1) {right: -3.5%;top: 62%;}
+.skill-logo:nth-of-type(2) {right: 17%;top: 87.5%;}
+.skill-logo:nth-of-type(3) {right: 50%;top: 93.5%;}
+.skill-logo:nth-of-type(4) {left: 3.5%;top: 75%;}
+.skill-logo:nth-of-type(5) {left: 17%;top: 0%;}
+.skill-logo:nth-of-type(6) {right: 94%;top: 36%;} 
+.skill-logo:nth-of-type(7) {right: 33%;top: -4%;} 
+.skill-logo:nth-of-type(8) {left: 88%;top: 22%;}
+
+.inner-circle{
+  border: 2px solid rgba(128, 128, 128, 0.493);
+  border-radius: 50%;
+  margin-left: 50px;
+  height: 200px;
+  width:200px;
+  position: absolute;
+  animation-name: wheel-reverse;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  will-change: transform;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466),inset -2px -2px 5px rgba(255, 255, 255, 0.479);
+
+}
