@@ -1,5 +1,3 @@
-
-
 export const Socials = [
   {
   name: "LinkedIn",
@@ -21,7 +19,8 @@ export const Socials = [
     src: '/instagram.svg',
     link: "https://www.instagram.com/tajuddinshaik_6/"
   }
-]
+];
+
 export const Skill_data = [
     {
     skill_name: "Figma",
@@ -86,7 +85,6 @@ export const Skill_data = [
   
   ];
   
-  
   export const Frontend_skill = [
     {
       skill_name: "Html 5",
@@ -132,8 +130,6 @@ export const Skill_data = [
     },
   ];
 
-    
-
   export const Programming_Skills = [
     {
         skill_name: "Python",
@@ -147,7 +143,7 @@ export const Skill_data = [
         width: 80,
         height: 80,
     },
-  ]
+  ];
   
   export const Backend_skill = [
     {
@@ -168,4 +164,3 @@ export const Skill_data = [
     },
   
   ];
-  

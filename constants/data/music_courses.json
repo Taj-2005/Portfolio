@@ -83,6 +83,30 @@
         "livelink": "https://tic-tac-toe-taj.vercel.app/",
         "isFeatured": true,
         "image": "/xo.jpeg"
+      },
+      {
+        "id": 8,
+        "title": "UX Audit Tool",
+        "slug": "A tool that automatically audits landing pages for UX improvements using both rule-based logic and AI-powered analysis.",
+        "description": "A web-based UX audit tool that evaluates landing pages using rule-based logic and AI-powered suggestions to improve CTA clarity, trust signals, and overall user experience.",
+        "price": 149.99,
+        "instructor": "Self",
+        "github": "https://github.com/Taj-2005/ux-audit-app",
+        "livelink": "https://ux-audit-app.vercel.app/",
+        "isFeatured": true,
+        "image": "/ux-audit-tool.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Interdisciplinary Insights",
+        "slug": "Empowering collaborative learning across disciplines for a holistic educational experience.",
+        "description": "Developed a web platform as part of the Fundamentals of System Thinking & Environment Hackathon to enhance interdisciplinary learning in higher education using systemic analysis and Causal Loop Diagrams. The platform visualizes complex interactions, identifies key leverage points, and fosters collaboration across academic disciplines.",
+        "price": 149.99,
+        "instructor": "Self",
+        "github": "https://github.com/Taj-2005/FSTE",
+        "livelink": "https://fste-hackathon-group47.vercel.app/",
+        "isFeatured": true,
+        "image": "/fste.jpg"
       }
     ]
   }
