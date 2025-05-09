@@ -1,6 +1,6 @@
 {
     "courses": [
-    {
+      {
         "id": 1,
         "title": "Space-Themed Portfolio (This) ",
         "slug": "Space-Themed Portfolio (This) ",
@@ -13,7 +13,55 @@
         "image": "/SpaceWebsit.jpeg"
         },
         {
-        "id": 2,
+          "id": 2,
+          "title": "Portfolio",
+          "slug": "Portfolio",
+          "description": "A personal portfolio website to showcase my web development skills and projects. Built with HTML, CSS, and JavaScript, the portfolio features a clean, structured layout and a responsive design, ensuring an optimal user experience across devices. Key highlights include an 'About Me' section, project showcases, and an interactive contact form.",
+          "price": 109.99,
+          "instructor": "my self",
+          "isFeatured": false,
+          "github": "https://github.com/Taj-2005/myportfolio",
+          "livelink": "https://shaik-tajuddin.vercel.app/",
+          "image": "/portfoli.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "AlgoJourney V1",
+          "slug": "AlgoJourney V1",
+          "description": "Algo Journey V1 is a web-based tracker for organizing and tracking LeetCode problems topic-wise, helping users systematically improve their problem-solving skills. It features categorization, progress tracking, and an intuitive UI for efficient learning.",
+          "price": 99.99,
+          "instructor": "self",
+          "isFeatured": true,
+          "github": "https://github.com/Taj-2005/algoJourney_v1",
+          "livelink": "https://algojourney-dsa-nst.vercel.app/",
+          "image": "/algov.jpeg"
+        },
+        {
+          "id": 4,
+          "title": "AlgoJourney V2",
+          "slug": "AlgoJourney V2",
+          "description": "Algo Journey V2 is a team-based platform for competitive programming, featuring AI-powered problem-solving, project rating, and real-time contests with automated profile tracking. It integrates GitHub analysis, WebSockets for live interactions, and Gemini Pro AI chat. I led the frontend development, with Version 1 built entirely by me.",
+          "price": 99.99,
+          "instructor": "self",
+          "isFeatured": true,
+          "github": "https://github.com/Taj-2005/Algo-Journey-V2",
+          "livelink": "https://algo-journey-3siz.vercel.app/",
+          "image": "/AlgoJourneyV.jpeg"
+        },
+        {
+          "id": 5,
+          "title": "Treadly",
+          "slug": "Interactive travel-themed quiz platform for exploring destinations and trivia.",
+          "description": "Built an interactive quiz web application inspired by travel experiences. Treadly features dynamic quiz flows, custom modals for quiz and result pages, confetti animations, and intuitive navigation. Designed with a focus on user engagement and responsiveness using Next.js, Tailwind CSS, and client-side routing.",
+          "price": 0,
+          "instructor": "Self",
+          "github": "https://github.com/Taj-2005/treadly",
+          "livelink": "https://treadly.vercel.app/",
+          "isFeatured": true,
+          "image": "/treadly.jpg"
+        },
+        {
+        "id": 6,
         "title": "DINE RESTAURANT WEBSITE",
         "slug": "dine restaurant website",
         "description": "A desktop-optimized restaurant website with a smooth and user-friendly design. The project includes a dynamic menu, seamless navigation, and an interactive 'Book a Table' functionality, ensuring an engaging and hassle-free browsing experience for users.",
@@ -24,90 +72,54 @@
         "livelink": "https://dine-restaurant6.vercel.app/",
         "image": "/restaurant.jpeg"
         },
-      {
-        "id": 3,
-        "title": "AlgoJourney V2",
-        "slug": "AlgoJourney V2",
-        "description": "Algo Journey V2 is a team-based platform for competitive programming, featuring AI-powered problem-solving, project rating, and real-time contests with automated profile tracking. It integrates GitHub analysis, WebSockets for live interactions, and Gemini Pro AI chat. I led the frontend development, with Version 1 built entirely by me.",
-        "price": 99.99,
-        "instructor": "self",
-        "isFeatured": true,
-        "github": "https://github.com/Taj-2005/Algo-Journey-V2",
-        "livelink": "https://algo-journey-3siz.vercel.app/",
-        "image": "/AlgoJourneyV.jpeg"
-      },
-      {
-        "id": 4,
-        "title": "AlgoJourney V1",
-        "slug": "AlgoJourney V1",
-        "description": "Algo Journey V1 is a web-based tracker for organizing and tracking LeetCode problems topic-wise, helping users systematically improve their problem-solving skills. It features categorization, progress tracking, and an intuitive UI for efficient learning.",
-        "price": 99.99,
-        "instructor": "self",
-        "isFeatured": true,
-        "github": "https://github.com/Taj-2005/algoJourney_v1",
-        "livelink": "https://algojourney-dsa-nst.vercel.app/",
-        "image": "/algov.jpeg"
-      },
-      {
-        "id": 5,
-        "title": "Portfolio",
-        "slug": "Portfolio",
-        "description": "A personal portfolio website to showcase my web development skills and projects. Built with HTML, CSS, and JavaScript, the portfolio features a clean, structured layout and a responsive design, ensuring an optimal user experience across devices. Key highlights include an 'About Me' section, project showcases, and an interactive contact form.",
-        "price": 109.99,
-        "instructor": "my self",
-        "isFeatured": false,
-        "github": "https://github.com/Taj-2005/myportfolio",
-        "livelink": "https://shaik-tajuddin.vercel.app/",
-        "image": "/portfoli.jpeg"
-      },
-      {
-        "id": 6,
-        "title": "Capstone - Portfolio",
-        "slug": "Capstone - Portfolio",
-        "description": "A responsive and modern portfolio website built as part of my capstone project at Newton School of Technology. It features a clean UI, smooth navigation, and mobile-friendly design to showcase my projects, achievements, and skills. The site includes project demos, an interactive contact form, and optimized layouts for all devices.",
-        "price": 129.99,
-        "instructor": "Self",
-        "github": "https://github.com/Taj-2005/Capstone-My-Portfolio",
-        "livelink": "https://capstone-taj.vercel.app/",
-        "isFeatured": false,
-        "image": "/ca.jpeg"
-      },
-      {
-        "id": 7,
-        "title": "TIC-TAC-TOE-GAME",
-        "slug": "A simple tic tac toe game interface",
-        "description": "An interactive Tic Tac Toe game that allows two players to compete in a visually engaging web-based environment. The game features a responsive UI, real-time game logic, and dynamic win detection for a seamless and fun user experience.",
-        "price": 149.99,
-        "instructor": "Self",
-        "github": "https://github.com/Taj-2005/TicTacToe",
-        "livelink": "https://tic-tac-toe-taj.vercel.app/",
-        "isFeatured": true,
-        "image": "/xo.jpeg"
-      },
-      {
-        "id": 8,
-        "title": "UX Audit Tool",
-        "slug": "A tool that automatically audits landing pages for UX improvements using both rule-based logic and AI-powered analysis.",
-        "description": "A web-based UX audit tool that evaluates landing pages using rule-based logic and AI-powered suggestions to improve CTA clarity, trust signals, and overall user experience.",
-        "price": 149.99,
-        "instructor": "Self",
-        "github": "https://github.com/Taj-2005/ux-audit-app",
-        "livelink": "https://ux-audit-app.vercel.app/",
-        "isFeatured": true,
-        "image": "/ux-audit-tool.jpg"
-      },
-      {
-        "id": 9,
-        "title": "Interdisciplinary Insights",
-        "slug": "Empowering collaborative learning across disciplines for a holistic educational experience.",
-        "description": "Developed a web platform as part of the Fundamentals of System Thinking & Environment Hackathon to enhance interdisciplinary learning in higher education using systemic analysis and Causal Loop Diagrams. The platform visualizes complex interactions, identifies key leverage points, and fosters collaboration across academic disciplines.",
-        "price": 149.99,
-        "instructor": "Self",
-        "github": "https://github.com/Taj-2005/FSTE",
-        "livelink": "https://fste-hackathon-group47.vercel.app/",
-        "isFeatured": true,
-        "image": "/fste.jpg"
-      }
+        {
+          "id": 7,
+          "title": "Interdisciplinary Insights",
+          "slug": "Empowering collaborative learning across disciplines for a holistic educational experience.",
+          "description": "Developed a web platform as part of the Fundamentals of System Thinking & Environment Hackathon to enhance interdisciplinary learning in higher education using systemic analysis and Causal Loop Diagrams. The platform visualizes complex interactions, identifies key leverage points, and fosters collaboration across academic disciplines.",
+          "price": 149.99,
+          "instructor": "Self",
+          "github": "https://github.com/Taj-2005/FSTE",
+          "livelink": "https://fste-hackathon-group47.vercel.app/",
+          "isFeatured": true,
+          "image": "/fste.jpg"
+        },
+        {
+          "id": 8,
+          "title": "UX Audit Tool",
+          "slug": "A tool that automatically audits landing pages for UX improvements using both rule-based logic and AI-powered analysis.",
+          "description": "A web-based UX audit tool that evaluates landing pages using rule-based logic and AI-powered suggestions to improve CTA clarity, trust signals, and overall user experience.",
+          "price": 149.99,
+          "instructor": "Self",
+          "github": "https://github.com/Taj-2005/ux-audit-app",
+          "livelink": "https://ux-audit-app.vercel.app/",
+          "isFeatured": true,
+          "image": "/ux-audit-tool.jpg"
+        },
+        {
+          "id": 9,
+          "title": "TIC-TAC-TOE-GAME",
+          "slug": "A simple tic tac toe game interface",
+          "description": "An interactive Tic Tac Toe game that allows two players to compete in a visually engaging web-based environment. The game features a responsive UI, real-time game logic, and dynamic win detection for a seamless and fun user experience.",
+          "price": 149.99,
+          "instructor": "Self",
+          "github": "https://github.com/Taj-2005/TicTacToe",
+          "livelink": "https://tic-tac-toe-taj.vercel.app/",
+          "isFeatured": true,
+          "image": "/xo.jpeg"
+        },
+        {
+          "id": 10,
+          "title": "Capstone - Portfolio",
+          "slug": "Capstone - Portfolio",
+          "description": "A responsive and modern portfolio website built as part of my capstone project at Newton School of Technology. It features a clean UI, smooth navigation, and mobile-friendly design to showcase my projects, achievements, and skills. The site includes project demos, an interactive contact form, and optimized layouts for all devices.",
+          "price": 129.99,
+          "instructor": "Self",
+          "github": "https://github.com/Taj-2005/Capstone-My-Portfolio",
+          "livelink": "https://capstone-taj.vercel.app/",
+          "isFeatured": false,
+          "image": "/ca.jpeg"
+        }
     ]
   }
   
