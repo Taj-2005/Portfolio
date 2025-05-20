@@ -117,6 +117,12 @@ export const Skill_data = [
       height: 80,
     },
     {
+      skill_name: "Next",
+      image: "/next.png",
+      width: 80,
+      height: 80,
+    },
+    {
       skill_name: "Type Script",
       image: "/ts-min.png",
       width: 80,
